@@ -6,10 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="src/css/styles.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="src/css/styles.css">
+    
 </head>
 
 <body>
@@ -18,14 +19,12 @@
         <div class="row">
             <nav class="col-md-2 d-none d-md-block bg-purple sidebar">
                 <div class="logo">
-                    <i class="bi bi-0-circle-fill"></i>
                     <h2>HORIZON+</h2>
                 </div>
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">
-                                <i class="bi bi-1-circle-fill"></i>
                                 <i class="bi bi-phone-fill icon-large"></i>
                                 <span>Produtos</span>
                                 <i id="indicator" class="bi bi-caret-left-fill indicator"></i>
@@ -83,51 +82,51 @@
                 </div>
                 <!--NÃO ALTERAR-->
                 <!--MEXER AQUI -->
-                <form>
-  <div class="mb-3">
-    <label for="exampleInputName" class="form-label">Nome Completo</label>
-    <input type="text" class="form-control" id="nome">
-  </div>
-  <select class="form-select" aria-label="cargo">
-  <option selected>Selecione seu cargo:</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
-<select class="form-select" aria-label="setor">
-  <option selected>Selecione seu setor:</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
-<div class="mb-3">
-    <label for="exampleInputPhone" class="form-label">Telefone:</label>
-    <input type="text" class="form-control" id="telefone">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Nós nunca iremos compartilhar seu email com alguém.</div>
-  </div>
-   
-    <div class="mb-3">
-    <label for="exampleInputNascimento" class="form-label">Data de Nascimento:</label>
-    <input type="date" class="form-control" id="nascimento">
-</div>
-<br>
-    <div class="input-group mb-3">
-  <span class="input-group-text">Salário:</span>
-  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-    </div>
-    <select class="form-select" aria-label="setor">
-  <option selected>Selecione o método de pagamento:</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-</select>
-    <br>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+                <form class="" method="" action="">
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome">
+                    </div>
+                    <select class="form-select" aria-label="cargo">
+                        <option selected>Selecione seu cargo:</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <select class="form-select" aria-label="setor">
+                        <option selected>Selecione seu setor:</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="mb-3">
+                        <label for="exampleInputPhone" class="form-label">Telefone:</label>
+                        <input type="text" class="form-control" id="telefone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nós nunca iremos compartilhar seu email com alguém.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputNascimento" class="form-label">Data de Nascimento:</label>
+                        <input type="date" class="form-control" id="nascimento">
+                    </div>
+                    <br>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Salário:</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+                    <select class="form-select" aria-label="setor">
+                        <option selected>Selecione o método de pagamento:</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
 
 
                 <!--MEXER AQUI -->
